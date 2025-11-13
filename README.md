@@ -1,7 +1,7 @@
-# Faisalabad Cirrus Anomaly Analysis (2019-2024)
+# Faisalabad Clouds Anomaly Analysis (2019-2024)
 
-This project analyzes **cirrus cloud anomalies** in Faisalabad, Pakistan, using monthly data from Google Earth Engine (GEE).  
-The aim is to investigate **changes in cirrus cloud patterns before and after COVID-19**.
+This project analyzes **clouds anomalies** in Faisalabad, Pakistan, using monthly data from Google Earth Engine (GEE).  
+The aim is to investigate **changes in clouds patterns before and after COVID-19**.
 
 ## Project Structure
 
@@ -12,11 +12,11 @@ The aim is to investigate **changes in cirrus cloud patterns before and after CO
 
 ## Analysis Steps
 
-1. Load the monthly cloud anomaly CSV.
+1. Load the monthly clouds anomaly CSV.
 2. Compute pre-COVID (2019) and post-COVID (2020-2024) statistics.
 3. Compute seasonal and monthly averages.
 4. Visualize anomalies for each season and month.
-5. Identify significant changes in cirrus cloud patterns.
+5. Identify significant changes in  cloud patterns.
 
 ## Dependencies
 
@@ -26,6 +26,6 @@ The aim is to investigate **changes in cirrus cloud patterns before and after CO
 
 ### Using Google Colab
 
-1. Open `notebooks/Cirrus_Analysis.ipynb`.
+1. Open `notebooks/clouds_Analysis.ipynb`.
 2. Upload `Faisalabad_Monthly_Cloud_Anomaly.csv`.
 3. Run all cells to reproduce the analysis and plots.
